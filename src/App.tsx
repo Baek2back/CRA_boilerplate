@@ -1,13 +1,11 @@
 import React from "react";
-import styles from "./App.module.scss";
+import { Test } from "@/components/Test";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <div>
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Test></Test>
         <a
           className="App-link"
           href="https://reactjs.org"
